@@ -6,6 +6,10 @@
 	max-width: 1600px;
 }
 
+html, body{
+	margin: 0;
+}
+
 /* Remove margins and padding from the list */
 ul {
     margin: 0;
@@ -81,6 +85,32 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
+	color:#ffffff;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 200%;
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+
+h4 {
+		display: block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 90%;
+	margin-left: 20px;
+	text-align: 20px;
+	font-style: italic;
+	font-weight: 400;
+	margin-right: 10px;
+	position: relative;
+	top: -20px;
+}
+
 /* Style the close button */
 .close {
     position: absolute;
@@ -100,6 +130,18 @@ h2 {
     padding: 30px 40px;
     color: white;
     text-align: center;
+}
+
+.footer {
+	position: relative;
+	top: 300px;
+	height: 100px;
+    background-color: #005674;
+	padding: 10px 10px;
+    color: white;
+    text-align: center;
+	height: 150px;
+	width: 100%;
 }
 
 /* Clear floats after the header */
