@@ -32,8 +32,9 @@ ul li {
     -ms-user-select: none;
     user-select: none;
 	-moz-border-radius: 5px;
-	border-radius: 5px; 
+	border-radius: 5px;
 }
+
 
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {

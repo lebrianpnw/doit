@@ -23,6 +23,15 @@ $(document).ready(function(){
 	$("#myUL").on("click", "li", function() {
 		$(this).toggleClass("checked");
 	});
+	
+	document.getElementById("myInput")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+        document.getElementById("myAddButton").click();
+    }
+});
+
 });
 
 // Create a new list item when clicking on the "Add" button
@@ -50,4 +59,6 @@ function newElement() {
       div.style.display = "none";
     }
   }
+  
 }
+
